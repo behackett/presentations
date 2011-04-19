@@ -1,3 +1,15 @@
-To load the datasets and geo index them first start mongod then...
+The load script assumes you are on *nix. The python code
+should work on any platform.
+
+To load the datasets and geo index them first start mongod then:
 $ ./load_data.sh
 $ python geo_index_data.py
+
+Examples of geo queries using python available in geo_examples.py:
+$ python
+Python 2.6.1 (r261:67515, Jun 24 2010, 21:47:49) 
+[GCC 4.2.1 (Apple Inc. build 5646)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import geo_examples as ge
+>>> help(ge)
+

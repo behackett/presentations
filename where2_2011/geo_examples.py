@@ -1,7 +1,8 @@
-# Examples of doing various Geo queries using pymongo.
-# These are just simple examples. No attempt was made
-# to optimize the performance of the queries.
-
+# Simple examples of doing various Geo queries using pymongo.
+#
+# Created for Where2.0 2011 Working with Geo data in MongoDB.
+# Bernie Hackett <bernie@10gen.com>
+#
 import math
 
 import bson

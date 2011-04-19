@@ -11,7 +11,8 @@
 #
 # Original script developed by Brendan W. McAdams
 
-MONGO_IMPORT=/opt/mongo/bin/mongoimport
+#MONGO_IMPORT=/opt/mongo/bin/mongoimport
+MONGO_IMPORT=/usr/local/bin/mongoimport
 DOS2UNIX=
 IMPORT_CMD="$MONGO_IMPORT -d bart --type csv --headerline --drop --ignoreBlanks"
 BART_ZIP="google_transit.zip"
