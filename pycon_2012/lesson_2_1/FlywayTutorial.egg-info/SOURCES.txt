@@ -1,0 +1,9 @@
+FlywayTutorial.egg-info/PKG-INFO
+FlywayTutorial.egg-info/SOURCES.txt
+FlywayTutorial.egg-info/dependency_links.txt
+FlywayTutorial.egg-info/entry_points.txt
+FlywayTutorial.egg-info/paster_plugins.txt
+FlywayTutorial.egg-info/top_level.txt
+flyway_tutorial/__init__.py
+flyway_tutorial/migrations_a.py
+flyway_tutorial/migrations_b.py
