@@ -1,0 +1,599 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 15 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 14 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 16 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 14 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R7': class PDFCatalog 
+7 0 obj
+% Document Root
+<< /Outlines 9 0 R
+ /PageLabels 17 0 R
+ /PageMode /UseNone
+ /Pages 14 0 R
+ /Type /Catalog >>
+endobj
+% 'R8': class PDFInfo 
+8 0 obj
+<< /Author ()
+ /CreationDate (D:20120426135241+08'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Replication Notes) >>
+endobj
+% 'R9': class PDFOutlines 
+9 0 obj
+<< /Count 4
+ /First 10 0 R
+ /Last 13 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 11 0 R
+ /Parent 9 0 R
+ /Title (Starting a Master/Slave Pair) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 569.3717
+ 0 ]
+ /Next 12 0 R
+ /Parent 9 0 R
+ /Prev 10 0 R
+ /Title (Starting a Replica Set) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+12 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 200.3717
+ 0 ]
+ /Next 13 0 R
+ /Parent 9 0 R
+ /Prev 11 0 R
+ /Title (Config Objects) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+13 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 232.2236
+ 0 ]
+ /Parent 9 0 R
+ /Prev 12 0 R
+ /Title (Other Important Commands) >>
+endobj
+% 'R14': class PDFPages 
+14 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 5 0 R
+ 6 0 R ]
+ /Type /Pages >>
+endobj
+% 'R15': class PDFStream 
+15 0 obj
+% page stream
+<< /Length 4412 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 150.4849 0 Td (Replication Notes) Tj T* -150.4849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Starting a Master/Slave Pair) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create directories for each mongod instance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir /data/master /data/slave) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 636.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start the master and the slave:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 581.3717 cm
+q
+q
+.96447 0 0 .96447 0 0 cm
+q
+1 0 0 1 6.6 6.843137 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 486 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/master --port 27017 --master) Tj T*  T* (mongod\(.exe\) --dbpath /data/slave --port 27018 --slave --source localhost:27017) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 548.3717 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Starting a Replica Set) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 530.3717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create directories for each mongod instance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 497.1717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir /data/rs0 /data/rs1 /data/rs2) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 477.1717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start three instances of mongod:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 395.9717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/rs0 --port 27017 --replSet myset) Tj T*  T* (mongod\(.exe\) --dbpath /data/rs1 --port 27018 --replSet myset) Tj T*  T* (mongod\(.exe\) --dbpath /data/rs2 --port 27019 --replSet myset) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 375.9717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Connect to the any mongod instance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 342.7717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongo\(.exe\) --port 27018) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 322.7717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Initialize the replica set:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 277.5717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj ( use admin) Tj T* (>) Tj ( rs.initiate\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 257.5717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Add the other members:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 212.3717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (PRIMARY) Tj (>) Tj ( rs.add\('localhost:27018'\)) Tj T* (PRIMARY) Tj (>) Tj ( rs.add\('localhost:27019'\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 179.3717 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Config Objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 161.3717 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (There are many optional settings that can be configured using the config object:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 80.1717 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg ({) Tj T* (  _id : ) Tj (<) Tj (setname) Tj (>) Tj (,) Tj T* (  members: [) Tj T* (    {) Tj T* (      _id : ) Tj (<) Tj (ordinal) Tj (>) Tj (,) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R16': class PDFStream 
+16 0 obj
+% page stream
+<< /Length 3230 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 559.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 204 re B*
+Q
+q
+BT 1 0 0 1 0 182 Tm 12 TL /F3 10 Tf 0 0 0 rg (      host : ) Tj (<) Tj (hostname[:port]) Tj (>) Tj  T* (      [, arbiterOnly : true]) Tj T* (      [, buildIndexes : ) Tj (<) Tj (bool) Tj (>) Tj (]) Tj T* (      [, hidden : true]) Tj T* (      [, priority: ) Tj (<) Tj (priority) Tj (>) Tj (]) Tj T* (      [, tags: {loc1 : desc1, loc2 : desc2, ..., locN : descN}]) Tj T* (      [, slaveDelay : ) Tj (<) Tj (n) Tj (>) Tj (]) Tj T* (      [, votes : ) Tj (<) Tj (n) Tj (>) Tj (]) Tj T* (    }) Tj T* (    , ...) Tj T* (  ],) Tj T* (  [settings: {) Tj T* (    [getLastErrorDefaults: ) Tj (<) Tj (lasterrdefaults) Tj (>) Tj (]) Tj T* (    [, getLastErrorModes : ) Tj (<) Tj (modes) Tj (>) Tj (]) Tj T* (  ]) Tj T* (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A quick example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 398.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 132 re B*
+Q
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj ( conf = { _id: 'myset',) Tj T* (...        members: [) Tj T* (...          { _id: 0, host: 'localhost:27017'},) Tj T* (...          { _id: 1, host: 'localhost:27018'},) Tj T* (...          { _id: 2, host: 'localhost:27019'}) Tj T* (...        ]) Tj T* (...      }) Tj T*  T* (>) Tj ( use admin) Tj T* (>) Tj ( rs.initiate\(conf\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 378.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To reconfigure the set:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (PRIMARY) Tj (>) Tj ( conf = rs.conf\(\)) Tj T* (PRIMARY) Tj (>) Tj ( conf.members[2].priority = 100) Tj T* (PRIMARY) Tj (>) Tj ( rs.reconfig\(conf\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 301.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To remove an option set it to its default setting:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 244.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (PRIMARY) Tj (>) Tj ( conf = rs.conf\(\)) Tj T* (PRIMARY) Tj (>) Tj ( conf.members[2].priority = 1) Tj T* (PRIMARY) Tj (>) Tj ( rs.reconfig\(conf\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 211.2236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Other Important Commands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 130.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL (rs.help\(\)) Tj T* (rs.status\(\)) Tj T* (rs.slaveOk\(\)) Tj T* (db.printReplicationInfo\(\)) Tj T* (db.printSlaveReplicationInfo\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R17': class PDFPageLabels 
+17 0 obj
+% Document Root
+<< /Nums [ 0
+ 18 0 R
+ 1
+ 19 0 R ] >>
+endobj
+% 'R18': class PDFPageLabel 
+18 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R19': class PDFPageLabel 
+19 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 20
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000732 00000 n
+0000001011 00000 n
+0000001290 00000 n
+0000001446 00000 n
+0000001709 00000 n
+0000001833 00000 n
+0000002020 00000 n
+0000002216 00000 n
+0000002404 00000 n
+0000002571 00000 n
+0000002686 00000 n
+0000007197 00000 n
+0000010530 00000 n
+0000010636 00000 n
+0000010713 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\217\300;\014o\024\252\357*\254W`-\237\277Q) (\217\300;\014o\024\252\357*\254W`-\237\277Q)] 
+
+ /Info 8 0 R
+ /Root 7 0 R
+ /Size 20 >>
+startxref
+10760
+%%EOF

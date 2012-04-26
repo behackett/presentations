@@ -1,0 +1,404 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 13 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 14 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R7': class PDFCatalog 
+7 0 obj
+% Document Root
+<< /Outlines 9 0 R
+ /PageLabels 15 0 R
+ /PageMode /UseNone
+ /Pages 12 0 R
+ /Type /Catalog >>
+endobj
+% 'R8': class PDFInfo 
+8 0 obj
+<< /Author ()
+ /CreationDate (D:20120426145218+08'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Sharding Notes) >>
+endobj
+% 'R9': class PDFOutlines 
+9 0 obj
+<< /Count 2
+ /First 10 0 R
+ /Last 11 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 11 0 R
+ /Parent 9 0 R
+ /Title (Setting up a sharded cluster) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 9 0 R
+ /Prev 10 0 R
+ /Title (Important Sharding Commands) >>
+endobj
+% 'R12': class PDFPages 
+12 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 5 0 R
+ 6 0 R ]
+ /Type /Pages >>
+endobj
+% 'R13': class PDFStream 
+13 0 obj
+% page stream
+<< /Length 3889 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 161.0449 0 Td (Sharding Notes) Tj T* -161.0449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Setting up a sharded cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Create directories for mongod instances:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir shard1 shard2 config) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 636.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start up 3 mongod instances:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/shard1 --port 10000 --shardsvr) Tj T* (mongod\(.exe\) --dbpath /data/shard1 --port 10001 --shardsvr) Tj T* (mongod\(.exe\) --dbpath /data/config --port 20000 --confgsvr) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 559.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start an instance of mongos:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 502.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (# --chunkSize 1 means use a 1MB chunk size. This is for) Tj T* (# demonstration purposes.) Tj T* (mongos --configdb localhost:20000 --chunkSize 1) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 482.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Add shards to the cluster:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 341.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 132 re B*
+Q
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongo\(.exe\)) Tj T* (mongos) Tj (>) Tj ( use admin) Tj T*  T* (# Pre MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10000'}\)) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10001'}\)) Tj T*  T* (# Post MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10000'\)) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10001'\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 321.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Enable sharding on a database:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 240.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg (# Pre MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'enablesharding': ) Tj (<) Tj (database name) Tj (>) Tj (}\)) Tj T*  T* (# Post MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( sh.enableSharding\() Tj (<) Tj (database name) Tj (>) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 220.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shard a collection:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 138.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg (# Pre MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'shardcollection': ) Tj (<) Tj (namespace) Tj (>) Tj (, 'key': ) Tj (<) Tj (shard key) Tj (>) Tj (}\)) Tj T*  T* (# Post MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( sh.shardCollection\() Tj (<) Tj (namespace) Tj (>) Tj (, ) Tj (<) Tj (shard key) Tj (>) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R14': class PDFStream 
+14 0 obj
+% page stream
+<< /Length 468 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Important Sharding Commands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 698.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (sh.help\(\)) Tj T* (db.printShardingStatus\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R15': class PDFPageLabels 
+15 0 obj
+% Document Root
+<< /Nums [ 0
+ 16 0 R
+ 1
+ 17 0 R ] >>
+endobj
+% 'R16': class PDFPageLabel 
+16 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R17': class PDFPageLabel 
+17 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 18
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000732 00000 n
+0000001011 00000 n
+0000001290 00000 n
+0000001446 00000 n
+0000001706 00000 n
+0000001830 00000 n
+0000002017 00000 n
+0000002187 00000 n
+0000002302 00000 n
+0000006290 00000 n
+0000006860 00000 n
+0000006966 00000 n
+0000007043 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\335ymWb\305\351\304\223Q\240\210\351$\001\304) (\335ymWb\305\351\304\223Q\240\210\351$\001\304)] 
+
+ /Info 8 0 R
+ /Root 7 0 R
+ /Size 18 >>
+startxref
+7090
+%%EOF
