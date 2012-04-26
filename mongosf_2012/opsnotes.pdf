@@ -1,0 +1,549 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 14 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 13 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 15 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 13 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R7': class PDFCatalog 
+7 0 obj
+% Document Root
+<< /Outlines 9 0 R
+ /PageLabels 16 0 R
+ /PageMode /UseNone
+ /Pages 13 0 R
+ /Type /Catalog >>
+endobj
+% 'R8': class PDFInfo 
+8 0 obj
+<< /Author ()
+ /CreationDate (D:20120426155318+08'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (General Ops Notes) >>
+endobj
+% 'R9': class PDFOutlines 
+9 0 obj
+<< /Count 3
+ /First 10 0 R
+ /Last 12 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 11 0 R
+ /Parent 9 0 R
+ /Title (Getting a single instance started) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 384.0236
+ 0 ]
+ /Next 12 0 R
+ /Parent 9 0 R
+ /Prev 10 0 R
+ /Title (Monitoring) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+12 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 620.0621
+ 0 ]
+ /Parent 9 0 R
+ /Prev 11 0 R
+ /Title (Backup) >>
+endobj
+% 'R13': class PDFPages 
+13 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 5 0 R
+ 6 0 R ]
+ /Type /Pages >>
+endobj
+% 'R14': class PDFStream 
+14 0 obj
+% page stream
+<< /Length 3870 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 144.9149 0 Td (General Ops Notes) Tj T* -144.9149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Getting a single instance started) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Need a directory for data files:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir -p /data/db) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 636.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start up mongod:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/db) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 583.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Things to add in production:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 550.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (--logpath, --logappend, --fork, --rest, ...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 530.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Use a config file:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL (dbpath = /data/db) Tj T* (logpath = /path/to/logfile) Tj T* (logappend = true) Tj T* (fork = true) Tj T* (rest = true) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 429.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Then use from the command line:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 396.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod\(.exe\) -f /path/to/config/file) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Monitoring) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Important tools:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 275.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongostat \(--discover\)) Tj T* (iostat -x 2) Tj T* (http://localhost:) Tj (<) Tj (1000 greater than --port) Tj (>) Tj  T* (mms.10gen.com) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 255.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Getting stats from the shell:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.62362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 0 0 rg (db.serverStatus\(\)) Tj T* (db.stats\(\)) Tj T* (db.) Tj (<) Tj (collection name) Tj (>) Tj (.stats\(\)) Tj T*  T* (# Do this in another shell to generate load) Tj T* (db.foo.drop\(\)) Tj T* (for \(var i=0; i) Tj (<) Tj (1000000; i++\){) Tj T* (    db.foo.insert\({_id: i}\);) Tj T* (    for \(var j=0; j) Tj (<) Tj ( 10; j++\){) Tj T* (        db.foo.findOne\({_id: \(i-j\)}\);) Tj T* (    }) Tj T* (}) Tj T* (# Add a big string to show disk util.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R15': class PDFStream 
+15 0 obj
+% page stream
+<< /Length 2464 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (See what the server is currently doing:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 685.2621 cm
+q
+q
+.976496 0 0 .976496 0 0 cm
+q
+1 0 0 1 6.6 6.758862 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 480 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL (db.currentOp\(\)) Tj T*  T* (# Use this in another shell to have a query slow enough to see) Tj T* (db.foo.find\({$where: 'var i=1000; while\(i--\); return this.blah != undefined'}\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 665.2621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Plugins for external tools:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 632.0621 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (Munin, Nagios, Cacti, Ganglia) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 599.0621 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Backup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 581.0621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For backup/restore on a live system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 535.8621 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongodump -d ) Tj (<) Tj (database) Tj (>) Tj ( -c ) Tj (<) Tj (collection) Tj (>) Tj ( ...) Tj T* (mongorestore -d ) Tj (<) Tj (database) Tj (>) Tj ( -c ) Tj (<) Tj (collection) Tj (>) Tj ( ...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 515.8621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You can also copy/rsync/snapshot the data files:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 410.6621 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F3 10 Tf 12 TL (# Make sure you lock the db first) Tj T* (db.fsyncLock\(\)) Tj T* (db.fsyncUnlock\(\)) Tj T*  T* (# On MongoDB pre 2.0) Tj T* (db.runCommand\({fsync: 1, lock: 1}\)) Tj T* (db.$cmd.sys.unlock.findOne\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 390.6621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Usually you want to do backups from a slave/secondary.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R16': class PDFPageLabels 
+16 0 obj
+% Document Root
+<< /Nums [ 0
+ 17 0 R
+ 1
+ 18 0 R ] >>
+endobj
+% 'R17': class PDFPageLabel 
+17 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R18': class PDFPageLabel 
+18 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 19
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000732 00000 n
+0000001011 00000 n
+0000001290 00000 n
+0000001446 00000 n
+0000001709 00000 n
+0000001833 00000 n
+0000002025 00000 n
+0000002209 00000 n
+0000002358 00000 n
+0000002473 00000 n
+0000006442 00000 n
+0000009009 00000 n
+0000009115 00000 n
+0000009192 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(z\3448g"\260\007\207[\271\230<n\367`\373) (z\3448g"\260\007\207[\271\230<n\367`\373)] 
+
+ /Info 8 0 R
+ /Root 7 0 R
+ /Size 19 >>
+startxref
+9239
+%%EOF
