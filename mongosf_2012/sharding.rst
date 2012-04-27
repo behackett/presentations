@@ -56,3 +56,14 @@ Important Sharding Commands
   sh.help()
   db.printShardingStatus()
 
+Exercises
+---------
+
+1. Set up a sharded cluster on your local machine using the instructions above.
+
+2. Generate some simple data using the example from the "General Ops Notes" page.
+
+3. Shard the collection on a field (or fields) other than _id.
+
+4. Explore the config db. Query the changelog and locks collections.
+

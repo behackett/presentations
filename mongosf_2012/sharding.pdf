@@ -37,12 +37,12 @@ endobj
 % 'Page1': class PDFPage 
 5 0 obj
 % Page dictionary
-<< /Contents 13 0 R
+<< /Contents 14 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 12 0 R
+ /Parent 13 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -56,12 +56,12 @@ endobj
 % 'Page2': class PDFPage 
 6 0 obj
 % Page dictionary
-<< /Contents 14 0 R
+<< /Contents 15 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 12 0 R
+ /Parent 13 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -76,15 +76,15 @@ endobj
 7 0 obj
 % Document Root
 << /Outlines 9 0 R
- /PageLabels 15 0 R
+ /PageLabels 16 0 R
  /PageMode /UseNone
- /Pages 12 0 R
+ /Pages 13 0 R
  /Type /Catalog >>
 endobj
 % 'R8': class PDFInfo 
 8 0 obj
 << /Author ()
- /CreationDate (D:20120426145218+08'00')
+ /CreationDate (D:20120427143118+08'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -93,9 +93,9 @@ endobj
 endobj
 % 'R9': class PDFOutlines 
 9 0 obj
-<< /Count 2
+<< /Count 3
  /First 10 0 R
- /Last 11 0 R
+ /Last 12 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
@@ -116,20 +116,32 @@ endobj
  62.69291
  765.0236
  0 ]
+ /Next 12 0 R
  /Parent 9 0 R
  /Prev 10 0 R
  /Title (Important Sharding Commands) >>
 endobj
-% 'R12': class PDFPages 
+% 'Outline.2': class OutlineEntryObject 
 12 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 686.8236
+ 0 ]
+ /Parent 9 0 R
+ /Prev 11 0 R
+ /Title (Exercises) >>
+endobj
+% 'R13': class PDFPages 
+13 0 obj
 % page tree
 << /Count 2
  /Kids [ 5 0 R
  6 0 R ]
  /Type /Pages >>
 endobj
-% 'R13': class PDFStream 
-13 0 obj
+% 'R14': class PDFStream 
+14 0 obj
 % page stream
 << /Length 3889 >>
 stream
@@ -315,10 +327,10 @@ Q
  
 endstream
 endobj
-% 'R14': class PDFStream 
-14 0 obj
+% 'R15': class PDFStream 
+15 0 obj
 % page stream
-<< /Length 468 >>
+<< /Length 2159 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -348,31 +360,139 @@ Q
 Q
 Q
 Q
+q
+1 0 0 1 62.69291 665.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Exercises) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 653.8236 cm
+Q
+q
+1 0 0 1 62.69291 653.8236 cm
+Q
+q
+1 0 0 1 62.69291 641.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Set up a sharded cluster on your local machine using the instructions above.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 635.8236 cm
+Q
+q
+1 0 0 1 62.69291 623.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Generate some simple data using the example from the "General Ops Notes" page.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 617.8236 cm
+Q
+q
+1 0 0 1 62.69291 605.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shard the collection on a field \(or fields\) other than _id.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 599.8236 cm
+Q
+q
+1 0 0 1 62.69291 587.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Explore the config db. Query the changelog and locks collections.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 587.8236 cm
+Q
  
 endstream
 endobj
-% 'R15': class PDFPageLabels 
-15 0 obj
+% 'R16': class PDFPageLabels 
+16 0 obj
 % Document Root
 << /Nums [ 0
- 16 0 R
+ 17 0 R
  1
- 17 0 R ] >>
-endobj
-% 'R16': class PDFPageLabel 
-16 0 obj
-% None
-<< /S /D
- /St 1 >>
+ 18 0 R ] >>
 endobj
 % 'R17': class PDFPageLabel 
 17 0 obj
 % None
 << /S /D
+ /St 1 >>
+endobj
+% 'R18': class PDFPageLabel 
+18 0 obj
+% None
+<< /S /D
  /St 2 >>
 endobj
 xref
-0 18
+0 19
 0000000000 65535 f
 0000000113 00000 n
 0000000233 00000 n
@@ -385,20 +505,21 @@ xref
 0000001706 00000 n
 0000001830 00000 n
 0000002017 00000 n
-0000002187 00000 n
-0000002302 00000 n
-0000006290 00000 n
-0000006860 00000 n
-0000006966 00000 n
-0000007043 00000 n
+0000002218 00000 n
+0000002370 00000 n
+0000002485 00000 n
+0000006473 00000 n
+0000008735 00000 n
+0000008841 00000 n
+0000008918 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\335ymWb\305\351\304\223Q\240\210\351$\001\304) (\335ymWb\305\351\304\223Q\240\210\351$\001\304)] 
+ [(yo_\351\023\350s;\266\033O\017q\244x\216) (yo_\351\023\350s;\266\033O\017q\244x\216)] 
 
  /Info 8 0 R
  /Root 7 0 R
- /Size 18 >>
+ /Size 19 >>
 startxref
-7090
+8965
 %%EOF

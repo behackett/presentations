@@ -84,7 +84,7 @@ endobj
 % 'R8': class PDFInfo 
 8 0 obj
 << /Author ()
- /CreationDate (D:20120426155318+08'00')
+ /CreationDate (D:20120427143230+08'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -114,7 +114,7 @@ endobj
 << /Dest [ 5 0 R
  /XYZ
  62.69291
- 384.0236
+ 205.6236
  0 ]
  /Next 12 0 R
  /Parent 9 0 R
@@ -126,7 +126,7 @@ endobj
 << /Dest [ 6 0 R
  /XYZ
  62.69291
- 620.0621
+ 442.8621
  0 ]
  /Parent 9 0 R
  /Prev 11 0 R
@@ -143,7 +143,7 @@ endobj
 % 'R14': class PDFStream 
 14 0 obj
 % page stream
-<< /Length 3870 >>
+<< /Length 4242 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -300,20 +300,75 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 376.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Connect using the mongo shell:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 342.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongo\(.exe\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 322.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Generate some data:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 217.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj ( use training) Tj T* (>) Tj ( for\(i=0; i) Tj (<) Tj (10000; i++\) {) Tj T* (... ['quiz', 'essay', 'exam'].forEach\(function\(name\) {) Tj T* (...    var score = Math.floor\(Math.random\(\) * 50\) + 50;) Tj T* (...    db.scores.insert\({student: i, name: name, score: score}\);) Tj T* (... }\);) Tj T* (...}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 184.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Monitoring) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 345.0236 cm
+1 0 0 1 62.69291 166.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Important tools:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 275.8236 cm
+1 0 0 1 62.69291 97.42362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -333,14 +388,23 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 255.8236 cm
+1 0 0 1 62.69291 77.42362 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Getting stats from the shell:) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+% 'R15': class PDFStream 
+15 0 obj
+% page stream
+<< /Length 3162 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 78.62362 cm
+1 0 0 1 62.69291 595.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -359,24 +423,15 @@ Q
 Q
 Q
 Q
- 
-endstream
-endobj
-% 'R15': class PDFStream 
-15 0 obj
-% page stream
-<< /Length 2464 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 753.0236 cm
+1 0 0 1 62.69291 575.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (See what the server is currently doing:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 685.2621 cm
+1 0 0 1 62.69291 508.0621 cm
 q
 q
 .976496 0 0 .976496 0 0 cm
@@ -397,14 +452,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 665.2621 cm
+1 0 0 1 62.69291 488.0621 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Plugins for external tools:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 632.0621 cm
+1 0 0 1 62.69291 454.8621 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -425,20 +480,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 599.0621 cm
+1 0 0 1 62.69291 421.8621 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Backup) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 581.0621 cm
+1 0 0 1 62.69291 403.8621 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For backup/restore on a live system:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 535.8621 cm
+1 0 0 1 62.69291 358.6621 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -458,14 +513,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 515.8621 cm
+1 0 0 1 62.69291 338.6621 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You can also copy/rsync/snapshot the data files:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 410.6621 cm
+1 0 0 1 62.69291 233.4621 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -486,7 +541,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 390.6621 cm
+1 0 0 1 62.69291 213.4621 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Usually you want to do backups from a slave/secondary.) Tj T* ET
@@ -532,18 +587,18 @@ xref
 0000002209 00000 n
 0000002358 00000 n
 0000002473 00000 n
-0000006442 00000 n
-0000009009 00000 n
-0000009115 00000 n
-0000009192 00000 n
+0000006814 00000 n
+0000010079 00000 n
+0000010185 00000 n
+0000010262 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(z\3448g"\260\007\207[\271\230<n\367`\373) (z\3448g"\260\007\207[\271\230<n\367`\373)] 
+ [(w\)lma\023\327\252\244\312\231A\033\233-\303) (w\)lma\023\327\252\244\312\231A\033\233-\303)] 
 
  /Info 8 0 R
  /Root 7 0 R
  /Size 19 >>
 startxref
-9239
+10309
 %%EOF

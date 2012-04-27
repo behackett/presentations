@@ -1,0 +1,517 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+4 0 obj
+% Page dictionary
+<< /Contents 13 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R5': class PDFCatalog 
+5 0 obj
+% Document Root
+<< /Outlines 7 0 R
+ /PageLabels 14 0 R
+ /PageMode /UseNone
+ /Pages 12 0 R
+ /Type /Catalog >>
+endobj
+% 'R6': class PDFInfo 
+6 0 obj
+<< /Author ()
+ /CreationDate (D:20120427145417+08'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Workshop Agenda) >>
+endobj
+% 'R7': class PDFOutlines 
+7 0 obj
+<< /Count 4
+ /First 8 0 R
+ /Last 11 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+8 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 9 0 R
+ /Parent 7 0 R
+ /Title (A Brief Introduction to MongoDB) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+9 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 654.0236
+ 0 ]
+ /Next 10 0 R
+ /Parent 7 0 R
+ /Prev 8 0 R
+ /Title (Replica Sets) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 543.0236
+ 0 ]
+ /Next 11 0 R
+ /Parent 7 0 R
+ /Prev 9 0 R
+ /Title (Sharding) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 432.0236
+ 0 ]
+ /Parent 7 0 R
+ /Prev 10 0 R
+ /Title (Other topics) >>
+endobj
+% 'R12': class PDFPages 
+12 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 4 0 R ]
+ /Type /Pages >>
+endobj
+% 'R13': class PDFStream 
+13 0 obj
+% page stream
+<< /Length 5029 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 146.6049 0 Td (Workshop Agenda) Tj T* -146.6049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (A Brief Introduction to MongoDB) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Install and configure a single mongod instance.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Use the shell to add some simple example data.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Replica Sets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configure a three node replica set.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Adding/Removing members.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configuring arbiters, priority, hidden nodes, slaveDelay.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Failover and stepdown.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 522.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Sharding) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+Q
+q
+1 0 0 1 62.69291 498.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Configure a simple sharded cluster.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+Q
+q
+1 0 0 1 62.69291 480.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Enabling sharding.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+Q
+q
+1 0 0 1 62.69291 462.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Shard a collection.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+Q
+q
+1 0 0 1 62.69291 444.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (An explanation of the config db and collections.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 444.0236 cm
+Q
+q
+1 0 0 1 62.69291 411.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Other topics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Backup/Restore) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Monitoring) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+Q
+ 
+endstream
+endobj
+% 'R14': class PDFPageLabels 
+14 0 obj
+% Document Root
+<< /Nums [ 0
+ 15 0 R ] >>
+endobj
+% 'R15': class PDFPageLabel 
+15 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 16
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000559 00000 n
+0000000838 00000 n
+0000000994 00000 n
+0000001255 00000 n
+0000001378 00000 n
+0000001566 00000 n
+0000001750 00000 n
+0000001931 00000 n
+0000002086 00000 n
+0000002193 00000 n
+0000007325 00000 n
+0000007418 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\315\315\035$Ug3dV\244\031v\010\026\003m) (\315\315\035$Ug3dV\244\031v\010\026\003m)] 
+
+ /Info 6 0 R
+ /Root 5 0 R
+ /Size 16 >>
+startxref
+7465
+%%EOF

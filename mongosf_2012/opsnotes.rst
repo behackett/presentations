@@ -28,6 +28,20 @@ Then use from the command line::
 
   mongod(.exe) -f /path/to/config/file
 
+Connect using the mongo shell::
+
+  mongo(.exe)
+
+Generate some data::
+
+  > use training
+  > for(i=0; i<10000; i++) {
+  ... ['quiz', 'essay', 'exam'].forEach(function(name) {
+  ...    var score = Math.floor(Math.random() * 50) + 50;
+  ...    db.scores.insert({student: i, name: name, score: score});
+  ... });
+  ...}
+
 Monitoring
 ----------
 

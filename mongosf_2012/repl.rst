@@ -106,3 +106,13 @@ Other Important Commands
   db.printReplicationInfo()
   db.printSlaveReplicationInfo()
 
+Exercises
+----------
+
+#. Set up a replica set using the steps above.
+
+#. Run the command to step down the primary: db.runCommand({ replSetStepDown: 1}); Ensure that a secondary node is elected as the new primary.
+
+#. Practice automated failover. In this case, you'll want to terminate the primary node manually.
+
+#. Add a node to an existing live replica set. This involves setting up a new node and either running rs.add() from the shell or, on a lower level, running the replicaSetReconfig command.

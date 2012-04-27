@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
-<title>General Ops Notes</title>
+<title>Workshop Agenda</title>
 <style type="text/css">
 
 /*
@@ -314,105 +314,40 @@ ul.auto-toc {
 </style>
 </head>
 <body>
-<div class="document" id="general-ops-notes">
-<h1 class="title">General Ops Notes</h1>
+<div class="document" id="workshop-agenda">
+<h1 class="title">Workshop Agenda</h1>
 
-<div class="section" id="getting-a-single-instance-started">
-<h1>Getting a single instance started</h1>
-<p>Need a directory for data files:</p>
-<pre class="literal-block">
-mkdir -p /data/db
-</pre>
-<p>Start up mongod:</p>
-<pre class="literal-block">
-mongod(.exe) --dbpath /data/db
-</pre>
-<p>Things to add in production:</p>
-<pre class="literal-block">
---logpath, --logappend, --fork, --rest, ...
-</pre>
-<p>Use a config file:</p>
-<pre class="literal-block">
-dbpath = /data/db
-logpath = /path/to/logfile
-logappend = true
-fork = true
-rest = true
-</pre>
-<p>Then use from the command line:</p>
-<pre class="literal-block">
-mongod(.exe) -f /path/to/config/file
-</pre>
-<p>Connect using the mongo shell:</p>
-<pre class="literal-block">
-mongo(.exe)
-</pre>
-<p>Generate some data:</p>
-<pre class="literal-block">
-&gt; use training
-&gt; for(i=0; i&lt;10000; i++) {
-... ['quiz', 'essay', 'exam'].forEach(function(name) {
-...    var score = Math.floor(Math.random() * 50) + 50;
-...    db.scores.insert({student: i, name: name, score: score});
-... });
-...}
-</pre>
+<div class="section" id="a-brief-introduction-to-mongodb">
+<h1>A Brief Introduction to MongoDB</h1>
+<ul class="simple">
+<li>Install and configure a single mongod instance.</li>
+<li>Use the shell to add some simple example data.</li>
+</ul>
 </div>
-<div class="section" id="monitoring">
-<h1>Monitoring</h1>
-<p>Important tools:</p>
-<pre class="literal-block">
-mongostat (--discover)
-iostat -x 2
-http://localhost:&lt;1000 greater than --port&gt;
-mms.10gen.com
-</pre>
-<p>Getting stats from the shell:</p>
-<pre class="literal-block">
-db.serverStatus()
-db.stats()
-db.&lt;collection name&gt;.stats()
-
-# Do this in another shell to generate load
-db.foo.drop()
-for (var i=0; i&lt;1000000; i++){
-    db.foo.insert({_id: i});
-    for (var j=0; j&lt; 10; j++){
-        db.foo.findOne({_id: (i-j)});
-    }
-}
-# Add a big string to show disk util.
-</pre>
-<p>See what the server is currently doing:</p>
-<pre class="literal-block">
-db.currentOp()
-
-# Use this in another shell to have a query slow enough to see
-db.foo.find({$where: 'var i=1000; while(i--); return this.blah != undefined'})
-</pre>
-<p>Plugins for external tools:</p>
-<pre class="literal-block">
-Munin, Nagios, Cacti, Ganglia
-</pre>
+<div class="section" id="replica-sets">
+<h1>Replica Sets</h1>
+<ul class="simple">
+<li>Configure a three node replica set.</li>
+<li>Adding/Removing members.</li>
+<li>Configuring arbiters, priority, hidden nodes, slaveDelay.</li>
+<li>Failover and stepdown.</li>
+</ul>
 </div>
-<div class="section" id="backup">
-<h1>Backup</h1>
-<p>For backup/restore on a live system:</p>
-<pre class="literal-block">
-mongodump -d &lt;database&gt; -c &lt;collection&gt; ...
-mongorestore -d &lt;database&gt; -c &lt;collection&gt; ...
-</pre>
-<p>You can also copy/rsync/snapshot the data files:</p>
-<pre class="literal-block">
-# Make sure you lock the db first
-db.fsyncLock()
-db.fsyncUnlock()
-
-# On MongoDB pre 2.0
-db.runCommand({fsync: 1, lock: 1})
-db.$cmd.sys.unlock.findOne()
-</pre>
-<p>Usually you want to do backups from a slave/secondary.</p>
+<div class="section" id="sharding">
+<h1>Sharding</h1>
+<ul class="simple">
+<li>Configure a simple sharded cluster.</li>
+<li>Enabling sharding.</li>
+<li>Shard a collection.</li>
+<li>An explanation of the config db and collections.</li>
+</ul>
+</div>
+<div class="section" id="other-topics">
+<h1>Other topics</h1>
+<ul class="simple">
+<li>Backup/Restore</li>
+<li>Monitoring</li>
+</ul>
 </div>
 </div>
 </body>
