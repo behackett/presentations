@@ -34,13 +34,14 @@ Connect using the mongo shell::
 
 Generate some data::
 
-  > use training
-  > for(i=0; i<10000; i++) {
-  ... ['quiz', 'essay', 'exam'].forEach(function(name) {
-  ...    var score = Math.floor(Math.random() * 50) + 50;
-  ...    db.scores.insert({student: i, name: name, score: score});
-  ... });
-  ...}
+  use training
+
+  for(i=0; i<10000; i++) {
+    ['quiz', 'essay', 'exam'].forEach(function(name) {
+       var score = Math.floor(Math.random() * 50) + 50;
+       db.scores.insert({student: i, name: name, score: score});
+    });
+  }
 
 Monitoring
 ----------
@@ -60,20 +61,19 @@ Getting stats from the shell::
 
   # Do this in another shell to generate load
   db.foo.drop()
-  for (var i=0; i<1000000; i++){
+  for (var i=0; i<10000; i++){
       db.foo.insert({_id: i});
       for (var j=0; j< 10; j++){
           db.foo.findOne({_id: (i-j)});
       }
   }
-  # Add a big string to show disk util.
 
 See what the server is currently doing::
 
   db.currentOp()
+  db.killOp()
 
-  # Use this in another shell to have a query slow enough to see
-  db.foo.find({$where: 'var i=1000; while(i--); return this.blah != undefined'})
+  # Start a db.repairDatabase(), find it in currentOp, then kill with killOp.
 
 Plugins for external tools::
 
