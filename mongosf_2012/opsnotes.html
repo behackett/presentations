@@ -349,13 +349,14 @@ mongo(.exe)
 </pre>
 <p>Generate some data:</p>
 <pre class="literal-block">
-&gt; use training
-&gt; for(i=0; i&lt;10000; i++) {
-... ['quiz', 'essay', 'exam'].forEach(function(name) {
-...    var score = Math.floor(Math.random() * 50) + 50;
-...    db.scores.insert({student: i, name: name, score: score});
-... });
-...}
+use training
+
+for(i=0; i&lt;10000; i++) {
+  ['quiz', 'essay', 'exam'].forEach(function(name) {
+     var score = Math.floor(Math.random() * 50) + 50;
+     db.scores.insert({student: i, name: name, score: score});
+  });
+}
 </pre>
 </div>
 <div class="section" id="monitoring">
@@ -375,20 +376,19 @@ db.&lt;collection name&gt;.stats()
 
 # Do this in another shell to generate load
 db.foo.drop()
-for (var i=0; i&lt;1000000; i++){
+for (var i=0; i&lt;10000; i++){
     db.foo.insert({_id: i});
     for (var j=0; j&lt; 10; j++){
         db.foo.findOne({_id: (i-j)});
     }
 }
-# Add a big string to show disk util.
 </pre>
 <p>See what the server is currently doing:</p>
 <pre class="literal-block">
 db.currentOp()
+db.killOp()
 
-# Use this in another shell to have a query slow enough to see
-db.foo.find({$where: 'var i=1000; while(i--); return this.blah != undefined'})
+# Start a db.repairDatabase(), find it in currentOp, then kill with killOp.
 </pre>
 <p>Plugins for external tools:</p>
 <pre class="literal-block">
