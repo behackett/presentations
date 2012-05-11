@@ -321,15 +321,15 @@ ul.auto-toc {
 <h1>Getting a single instance started</h1>
 <p>Need a directory for data files:</p>
 <pre class="literal-block">
-mkdir -p /data/db
+mkdir /data/db
 </pre>
 <p>Start up mongod:</p>
 <pre class="literal-block">
-mongod(.exe) --dbpath /data/db
+mongod --dbpath /data/db
 </pre>
-<p>Things to add in production:</p>
+<p>Things to add in production. Use mongod --help for all options:</p>
 <pre class="literal-block">
---logpath, --logappend, --fork, --rest, ...
+--logpath, --logappend, --fork, --rest, --port, ...
 </pre>
 <p>Use a config file:</p>
 <pre class="literal-block">
@@ -338,14 +338,15 @@ logpath = /path/to/logfile
 logappend = true
 fork = true
 rest = true
+port = 27018
 </pre>
 <p>Then use from the command line:</p>
 <pre class="literal-block">
-mongod(.exe) -f /path/to/config/file
+mongod --config /path/to/config/file
 </pre>
 <p>Connect using the mongo shell:</p>
 <pre class="literal-block">
-mongo(.exe)
+mongo
 </pre>
 <p>Generate some data:</p>
 <pre class="literal-block">

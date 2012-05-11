@@ -6,13 +6,13 @@ Setting up a sharded cluster
 
 Create directories for mongod instances::
 
-  mkdir shard1 shard2 config
+  mkdir /data/shard1 /data/shard2 /data/config
 
 Start up 3 mongod instances::
 
-  mongod(.exe) --dbpath /data/shard1 --port 10000 --shardsvr
-  mongod(.exe) --dbpath /data/shard1 --port 10001 --shardsvr
-  mongod(.exe) --dbpath /data/config --port 20000 --confgsvr
+  mongod --dbpath /data/shard1 --port 10000 --shardsvr
+  mongod --dbpath /data/shard2 --port 10001 --shardsvr
+  mongod --dbpath /data/config --port 20000 --configsvr
 
 Start an instance of mongos::
 
@@ -22,7 +22,7 @@ Start an instance of mongos::
 
 Add shards to the cluster::
 
-  mongo(.exe)
+  mongo
   mongos> use admin
 
   # Pre MongoDB 2.0

@@ -84,7 +84,7 @@ endobj
 % 'R8': class PDFInfo 
 8 0 obj
 << /Author ()
- /CreationDate (D:20120427143118+08'00')
+ /CreationDate (D:20120511111818+08'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -143,7 +143,7 @@ endobj
 % 'R14': class PDFStream 
 14 0 obj
 % page stream
-<< /Length 3889 >>
+<< /Length 3876 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -181,7 +181,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir shard1 shard2 config) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir /data/shard1 /data/shard2 /data/config) Tj T* ET
 Q
 Q
 Q
@@ -209,7 +209,7 @@ n -6 -6 468.6898 48 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/shard1 --port 10000 --shardsvr) Tj T* (mongod\(.exe\) --dbpath /data/shard1 --port 10001 --shardsvr) Tj T* (mongod\(.exe\) --dbpath /data/config --port 20000 --confgsvr) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (mongod --dbpath /data/shard1 --port 10000 --shardsvr) Tj T* (mongod --dbpath /data/shard2 --port 10001 --shardsvr) Tj T* (mongod --dbpath /data/config --port 20000 --configsvr) Tj T* ET
 Q
 Q
 Q
@@ -264,7 +264,7 @@ q
 n -6 -6 468.6898 132 re B*
 Q
 q
-BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongo\(.exe\)) Tj T* (mongos) Tj (>) Tj ( use admin) Tj T*  T* (# Pre MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10000'}\)) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10001'}\)) Tj T*  T* (# Post MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10000'\)) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10001'\)) Tj T* ET
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongo) Tj T* (mongos) Tj (>) Tj ( use admin) Tj T*  T* (# Pre MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10000'}\)) Tj T* (mongos) Tj (>) Tj ( db.runCommand\({'addshard': 'localhost:10001'}\)) Tj T*  T* (# Post MongoDB 2.0) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10000'\)) Tj T* (mongos) Tj (>) Tj ( sh.addShard\('localhost:10001'\)) Tj T* ET
 Q
 Q
 Q
@@ -508,18 +508,18 @@ xref
 0000002218 00000 n
 0000002370 00000 n
 0000002485 00000 n
-0000006473 00000 n
-0000008735 00000 n
-0000008841 00000 n
-0000008918 00000 n
+0000006460 00000 n
+0000008722 00000 n
+0000008828 00000 n
+0000008905 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(yo_\351\023\350s;\266\033O\017q\244x\216) (yo_\351\023\350s;\266\033O\017q\244x\216)] 
+ [(^\362\366=D\373\364N\223\015\243\232\233\021\022|) (^\362\366=D\373\364N\223\015\243\232\233\021\022|)] 
 
  /Info 8 0 R
  /Root 7 0 R
  /Size 19 >>
 startxref
-8965
+8952
 %%EOF

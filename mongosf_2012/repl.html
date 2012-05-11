@@ -325,9 +325,10 @@ mkdir /data/master /data/slave
 </pre>
 <p>Start the master and the slave:</p>
 <pre class="literal-block">
-mongod(.exe) --dbpath /data/master --port 27017 --master
+mongod --dbpath /data/master --port 27017 --master
 
-mongod(.exe) --dbpath /data/slave --port 27018 --slave --source localhost:27017
+# You may have to replace &quot;localhost&quot; with your machine's hostname.
+mongod --dbpath /data/slave --port 27018 --slave --source localhost:27017
 </pre>
 </div>
 <div class="section" id="starting-a-replica-set">
@@ -338,25 +339,51 @@ mkdir /data/rs0 /data/rs1 /data/rs2
 </pre>
 <p>Start three instances of mongod:</p>
 <pre class="literal-block">
-mongod(.exe) --dbpath /data/rs0 --port 27017 --replSet myset
+mongod --dbpath /data/rs0 --port 27017 --replSet myset
 
-mongod(.exe) --dbpath /data/rs1 --port 27018 --replSet myset
+mongod --dbpath /data/rs1 --port 27018 --replSet myset
 
-mongod(.exe) --dbpath /data/rs2 --port 27019 --replSet myset
+mongod --dbpath /data/rs2 --port 27019 --replSet myset
 </pre>
 <p>Connect to the any mongod instance:</p>
 <pre class="literal-block">
-mongo(.exe) --port 27018
+mongo --port 27018
 </pre>
 <p>Initialize the replica set:</p>
 <pre class="literal-block">
-&gt; use admin
 &gt; rs.initiate()
+</pre>
+<p>After a few seconds the mongod process you are connected to will become
+the replica set primary. The prompt will change to &quot;PRIMARY&gt;&quot;. Run rs.status()
+to see the current configuration:</p>
+<pre class="literal-block">
+PRIMARY&gt; rs.status()
+{
+      &quot;set&quot; : &quot;myset&quot;,
+      &quot;date&quot; : ISODate(&quot;2012-05-11T17:56:37Z&quot;),
+      &quot;myState&quot; : 1,
+      &quot;members&quot; : [
+              {
+                      &quot;_id&quot; : 0,
+                      &quot;name&quot; : &lt;your hostname&gt;:27018&quot;,
+                      &quot;health&quot; : 1,
+                      &quot;state&quot; : 1,
+                      &quot;stateStr&quot; : &quot;PRIMARY&quot;,
+                      &quot;optime&quot; : {
+                              &quot;t&quot; : 1336758831000,
+                              &quot;i&quot; : 1
+                      },
+                      &quot;optimeDate&quot; : ISODate(&quot;2012-05-11T17:53:51Z&quot;),
+                      &quot;self&quot; : true
+              }
+      ],
+      &quot;ok&quot; : 1
+}
 </pre>
 <p>Add the other members:</p>
 <pre class="literal-block">
-PRIMARY&gt; rs.add('localhost:27018')
-PRIMARY&gt; rs.add('localhost:27019')
+PRIMARY&gt; rs.add('&lt;your hostname&gt;:27017')
+PRIMARY&gt; rs.add('&lt;your hostname&gt;:27019')
 </pre>
 </div>
 <div class="section" id="config-objects">
@@ -390,13 +417,12 @@ object:</p>
 <pre class="literal-block">
 &gt; conf = { _id: 'myset',
 ...        members: [
-...          { _id: 0, host: 'localhost:27017'},
-...          { _id: 1, host: 'localhost:27018'},
-...          { _id: 2, host: 'localhost:27019'}
+...          { _id: 0, host: '&lt;your hostname&gt;:27017'},
+...          { _id: 1, host: '&lt;your hostname&gt;:27018'},
+...          { _id: 2, host: '&lt;your hostname&gt;:27019'}
 ...        ]
 ...      }
 
-&gt; use admin
 &gt; rs.initiate(conf)
 </pre>
 <p>To reconfigure the set:</p>

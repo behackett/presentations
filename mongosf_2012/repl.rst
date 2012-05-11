@@ -10,9 +10,10 @@ Create directories for each mongod instance::
 
 Start the master and the slave::
 
-  mongod(.exe) --dbpath /data/master --port 27017 --master
+  mongod --dbpath /data/master --port 27017 --master
 
-  mongod(.exe) --dbpath /data/slave --port 27018 --slave --source localhost:27017
+  # You may have to replace "localhost" with your machine's hostname.
+  mongod --dbpath /data/slave --port 27018 --slave --source localhost:27017
 
 Starting a Replica Set
 ----------------------
@@ -23,25 +24,51 @@ Create directories for each mongod instance::
 
 Start three instances of mongod::
 
-  mongod(.exe) --dbpath /data/rs0 --port 27017 --replSet myset
+  mongod --dbpath /data/rs0 --port 27017 --replSet myset
 
-  mongod(.exe) --dbpath /data/rs1 --port 27018 --replSet myset
+  mongod --dbpath /data/rs1 --port 27018 --replSet myset
 
-  mongod(.exe) --dbpath /data/rs2 --port 27019 --replSet myset
+  mongod --dbpath /data/rs2 --port 27019 --replSet myset
 
 Connect to the any mongod instance::
 
-  mongo(.exe) --port 27018
+  mongo --port 27018
 
 Initialize the replica set::
 
-  > use admin
   > rs.initiate()
+
+After a few seconds the mongod process you are connected to will become
+the replica set primary. The prompt will change to "PRIMARY>". Run rs.status()
+to see the current configuration::
+
+  PRIMARY> rs.status()
+  {
+        "set" : "myset",
+        "date" : ISODate("2012-05-11T17:56:37Z"),
+        "myState" : 1,
+        "members" : [
+                {
+                        "_id" : 0,
+                        "name" : <your hostname>:27018",
+                        "health" : 1,
+                        "state" : 1,
+                        "stateStr" : "PRIMARY",
+                        "optime" : {
+                                "t" : 1336758831000,
+                                "i" : 1
+                        },
+                        "optimeDate" : ISODate("2012-05-11T17:53:51Z"),
+                        "self" : true
+                }
+        ],
+        "ok" : 1
+  }
 
 Add the other members::
 
-  PRIMARY> rs.add('localhost:27018')
-  PRIMARY> rs.add('localhost:27019')
+  PRIMARY> rs.add('<your hostname>:27017')
+  PRIMARY> rs.add('<your hostname>:27019')
 
 Config Objects
 --------------
@@ -75,13 +102,12 @@ A quick example::
 
   > conf = { _id: 'myset',
   ...        members: [
-  ...          { _id: 0, host: 'localhost:27017'},
-  ...          { _id: 1, host: 'localhost:27018'},
-  ...          { _id: 2, host: 'localhost:27019'}
+  ...          { _id: 0, host: '<your hostname>:27017'},
+  ...          { _id: 1, host: '<your hostname>:27018'},
+  ...          { _id: 2, host: '<your hostname>:27019'}
   ...        ]
   ...      }
 
-  > use admin
   > rs.initiate(conf)
 
 To reconfigure the set::

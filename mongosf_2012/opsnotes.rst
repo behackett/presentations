@@ -6,15 +6,15 @@ Getting a single instance started
 
 Need a directory for data files::
 
-  mkdir -p /data/db
+  mkdir /data/db
 
 Start up mongod::
 
-  mongod(.exe) --dbpath /data/db
+  mongod --dbpath /data/db
 
-Things to add in production::
+Things to add in production. Use mongod --help for all options::
 
-  --logpath, --logappend, --fork, --rest, ...
+  --logpath, --logappend, --fork, --rest, --port, ...
 
 Use a config file::
 
@@ -23,14 +23,15 @@ Use a config file::
   logappend = true
   fork = true
   rest = true
+  port = 27018
 
 Then use from the command line::
 
-  mongod(.exe) -f /path/to/config/file
+  mongod --config /path/to/config/file
 
 Connect using the mongo shell::
 
-  mongo(.exe)
+  mongo
 
 Generate some data::
 

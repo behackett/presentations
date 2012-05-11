@@ -321,13 +321,13 @@ ul.auto-toc {
 <h1>Setting up a sharded cluster</h1>
 <p>Create directories for mongod instances:</p>
 <pre class="literal-block">
-mkdir shard1 shard2 config
+mkdir /data/shard1 /data/shard2 /data/config
 </pre>
 <p>Start up 3 mongod instances:</p>
 <pre class="literal-block">
-mongod(.exe) --dbpath /data/shard1 --port 10000 --shardsvr
-mongod(.exe) --dbpath /data/shard1 --port 10001 --shardsvr
-mongod(.exe) --dbpath /data/config --port 20000 --confgsvr
+mongod --dbpath /data/shard1 --port 10000 --shardsvr
+mongod --dbpath /data/shard2 --port 10001 --shardsvr
+mongod --dbpath /data/config --port 20000 --configsvr
 </pre>
 <p>Start an instance of mongos:</p>
 <pre class="literal-block">
@@ -337,7 +337,7 @@ mongos --configdb localhost:20000 --chunkSize 1
 </pre>
 <p>Add shards to the cluster:</p>
 <pre class="literal-block">
-mongo(.exe)
+mongo
 mongos&gt; use admin
 
 # Pre MongoDB 2.0

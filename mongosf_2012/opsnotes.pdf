@@ -84,7 +84,7 @@ endobj
 % 'R8': class PDFInfo 
 8 0 obj
 << /Author ()
- /CreationDate (D:20120502182732+08'00')
+ /CreationDate (D:20120511111800+08'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -114,7 +114,7 @@ endobj
 << /Dest [ 5 0 R
  /XYZ
  62.69291
- 193.6236
+ 181.6236
  0 ]
  /Next 12 0 R
  /Parent 9 0 R
@@ -126,7 +126,7 @@ endobj
 << /Dest [ 6 0 R
  /XYZ
  62.69291
- 433.4236
+ 400.2236
  0 ]
  /Parent 9 0 R
  /Prev 11 0 R
@@ -143,7 +143,7 @@ endobj
 % 'R14': class PDFStream 
 14 0 obj
 % page stream
-<< /Length 4092 >>
+<< /Length 4113 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -181,7 +181,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir -p /data/db) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mkdir /data/db) Tj T* ET
 Q
 Q
 Q
@@ -209,7 +209,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod\(.exe\) --dbpath /data/db) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod --dbpath /data/db) Tj T* ET
 Q
 Q
 Q
@@ -219,7 +219,7 @@ q
 1 0 0 1 62.69291 583.6236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Things to add in production:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Things to add in production. Use mongod --help for all options:) Tj T* ET
 Q
 Q
 q
@@ -237,7 +237,7 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (--logpath, --logappend, --fork, --rest, ...) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (--logpath, --logappend, --fork, --rest, --port, ...) Tj T* ET
 Q
 Q
 Q
@@ -251,7 +251,7 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Use a config file:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 449.2236 cm
+1 0 0 1 62.69291 437.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -261,25 +261,25 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 72 re B*
+n -6 -6 468.6898 84 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL (dbpath = /data/db) Tj T* (logpath = /path/to/logfile) Tj T* (logappend = true) Tj T* (fork = true) Tj T* (rest = true) Tj T* ET
+BT 1 0 0 1 0 62 Tm /F3 10 Tf 12 TL (dbpath = /data/db) Tj T* (logpath = /path/to/logfile) Tj T* (logappend = true) Tj T* (fork = true) Tj T* (rest = true) Tj T* (port = 27018) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 429.2236 cm
+1 0 0 1 62.69291 417.2236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Then use from the command line:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 396.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -293,21 +293,21 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod\(.exe\) -f /path/to/config/file) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongod --config /path/to/config/file) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 376.0236 cm
+1 0 0 1 62.69291 364.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Connect using the mongo shell:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 342.8236 cm
+1 0 0 1 62.69291 330.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -321,21 +321,21 @@ n -6 -6 468.6898 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongo\(.exe\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (mongo) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 322.8236 cm
+1 0 0 1 62.69291 310.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Generate some data:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 205.6236 cm
+1 0 0 1 62.69291 193.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -355,13 +355,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 172.6236 cm
+1 0 0 1 62.69291 160.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Monitoring) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 154.6236 cm
+1 0 0 1 62.69291 142.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Important tools:) Tj T* ET
@@ -378,10 +378,10 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 60 re B*
+n -6 -6 468.6898 48 re B*
 Q
 q
-BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongostat \(--discover\)) Tj T* (iostat -x 2) Tj T* (http://localhost:) Tj (<) Tj (1000 greater than --port) Tj (>) Tj  T* (mms.10gen.com) Tj T* ET
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (mongostat \(--discover\)) Tj T* (iostat -x 2) Tj T* (http://localhost:) Tj (<) Tj (1000 greater than --port) Tj (>) Tj  T* ET
 Q
 Q
 Q
@@ -393,18 +393,38 @@ endobj
 % 'R15': class PDFStream 
 15 0 obj
 % page stream
-<< /Length 3176 >>
+<< /Length 3436 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 753.0236 cm
+1 0 0 1 62.69291 739.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (mms.10gen.com) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 719.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Getting stats from the shell:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 587.8236 cm
+1 0 0 1 62.69291 554.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -424,14 +444,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 567.8236 cm
+1 0 0 1 62.69291 534.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (See what the server is currently doing:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 498.6236 cm
+1 0 0 1 62.69291 465.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -452,14 +472,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 478.6236 cm
+1 0 0 1 62.69291 445.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Plugins for external tools:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 445.4236 cm
+1 0 0 1 62.69291 412.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -480,20 +500,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 412.4236 cm
+1 0 0 1 62.69291 379.2236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Backup) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 394.4236 cm
+1 0 0 1 62.69291 361.2236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For backup/restore on a live system:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 349.2236 cm
+1 0 0 1 62.69291 316.0236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -513,14 +533,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 329.2236 cm
+1 0 0 1 62.69291 296.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You can also copy/rsync/snapshot the data files:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 224.0236 cm
+1 0 0 1 62.69291 190.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -541,7 +561,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
+1 0 0 1 62.69291 170.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Usually you want to do backups from a slave/secondary.) Tj T* ET
@@ -587,18 +607,18 @@ xref
 0000002209 00000 n
 0000002358 00000 n
 0000002473 00000 n
-0000006664 00000 n
-0000009943 00000 n
-0000010049 00000 n
-0000010126 00000 n
+0000006685 00000 n
+0000010224 00000 n
+0000010330 00000 n
+0000010407 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(#z\330\321\204\006\012\323\364\)\315u\243D\201V) (#z\330\321\204\006\012\323\364\)\315u\243D\201V)] 
+ [(+m\237\324\031\367Ej\264\351\266\010\266\020\216\343) (+m\237\324\031\367Ej\264\351\266\010\266\020\216\343)] 
 
  /Info 8 0 R
  /Root 7 0 R
  /Size 19 >>
 startxref
-10173
+10454
 %%EOF
